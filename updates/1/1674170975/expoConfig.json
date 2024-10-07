@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Toll mobile",
+    "slug": "tollmobile",
+    "orientation": "portrait",
+    "icon": "./assets/app-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/app-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "runtimeVersion": "1",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4b853f9e-b80f-4c2d-9a8f-410dbb7b790c"
+      }
+    },
+    "updates": {
+      "url": "https://9975-2804-14c-140-3772-90fb-829f-4ab5-1250.ngrok-free.app/api/manifest",
+      "codeSigningCertificate": "./certs/certificate.pem",
+      "fallbackToCacheTimeout": 30000,
+      "codeSigningMetadata": {
+        "keyid": "main",
+        "alg": "rsa-v1_5-sha256"
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          },
+          "ios": {}
+        }
+      ]
+    ],
+    "owner": "giovannicm1999"
+  }
+}
